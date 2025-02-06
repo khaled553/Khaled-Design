@@ -217,7 +217,7 @@ header {
     display: flex;
     position: relative;
     overflow: hidden;
-    box-shadow: var(--third) 0px 3px 8px;    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: var(--third) 0px 3px 8px;
 }
 
 header::before {
@@ -389,7 +389,7 @@ header .elements {
 /* start whyus */
 .whyus {
     height: 85vh;
-    box-shadow: var(--third) 0px 4px 6px -2px;
+    box-shadow: var(--third) 0px 3px 8px;
 }   
 .whyus .container {
     margin: 50px auto;
@@ -1003,5 +1003,12 @@ img {
     footer{
         height: 70vh;
     }
-}
 
+    .card {
+        flex: 1 1 100%; /* كارت واحد في كل صف */
+    }
+
+    nav {
+        width: 100%;
+    }    
+}
